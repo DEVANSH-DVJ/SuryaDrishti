@@ -1,0 +1,30 @@
+.vscode
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Common data extensions
+*.zip
+*.csv
+*.jpg
+*.png
+*.xml
+
+# Raw data files
+*.fits
+*.hk
+*.sa
+
+# Calibrated data files
+*.lc
+*.pha
+*.gti
+*.nc
+
+xsmdas/
+.gitkeep
