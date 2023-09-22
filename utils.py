@@ -52,7 +52,7 @@ def date_to_data(date: str, gen: bool) -> Tuple[npt.NDArray[np.int32], npt.NDArr
     # Set data file location. Modify as per requirement.
     if gen:
         filename = os.path.join(os.path.dirname(__file__),
-                                'data', 'XSM_Generated_LightCurve_10s',
+                                'data', 'Lightcurves',
                                 f'gen_{date}.lc')
     else:
         filename = os.path.join(os.path.dirname(__file__),
@@ -91,10 +91,10 @@ def date_to_data(date: str, gen: bool) -> Tuple[npt.NDArray[np.int32], npt.NDArr
         # Set previous and next dates' filenames
         # TODO: Add `if gen` clause
         filename_prev = os.path.join(os.path.dirname(__file__),
-                                    'data', 'XSM_Generated_LightCurve_10s',
+                                    'data', 'Lightcurves',
                                     f'gen_{prev_dt.strftime("%Y%m%d")}.lc')
         filename_next = os.path.join(os.path.dirname(__file__),
-                                    'data', 'XSM_Generated_LightCurve_10s',
+                                    'data', 'Lightcurves',
                                     f'gen_{next_dt.strftime("%Y%m%d")}.lc')
         
         if os.path.isfile(filename_prev):

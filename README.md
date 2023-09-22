@@ -20,7 +20,15 @@ Python libraries:
 ```
 git clone https://github.com/DEVANSH-DVJ/SuryaDrishti.git
 ```
-2. 
+2. Download XSM L2 `.lc` data files from the [PRADAN website](https://pradan.issdc.gov.in/ch2/). Unzip them and place them under a `/data/Lightcurves/` folder.
+3. Define data path in `utils.py` if they are not under `/data/Lightcurves/`
+4. Set up for bulk execution using `logmain.py`
+  - n_proc: number of processors to be used
+  - glob = Config(): Config variables (refer to sd.py)
+  - gen argument should be set to `True`
+  - start_date: starting date of files
+  - numdays: number of days to process from start_date
+5. Run `python logmain.py <output_root>` where output root is the name of the folder `/data/Runs/<output_root>`
 
 ## Repository Structure
 
