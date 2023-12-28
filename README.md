@@ -1,6 +1,7 @@
 # SuryaDrishti
 
-Solar flare catalog from 3 years of Chandrayaan-2 XSM observations. If you use the catalog or this pipeline, please cite Valluvan et al 2023.
+Solar flare catalog from 3 years of Chandrayaan-2 XSM observations. If you use the catalog or this pipeline, please cite Valluvan et al 2023 (
+https://doi.org/10.48550/arXiv.2312.09191).
 
 Copyright (C) 2023 Aravind Bharathi Valluvan, Ashwin Goyal and Devansh Jain.
 
