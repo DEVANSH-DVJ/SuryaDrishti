@@ -1,10 +1,10 @@
 # SuryaDrishti
 
-Solar flare catalog from 3 years of Chandrayaan-2 XSM observations. If you use the catalog or this pipeline, please cite Valluvan et al. 2023 (https://doi.org/10.48550/arXiv.2312.09191).
+Solar Flare Catalogue from 3 Years of Chandrayaan-2 XSM Observations. If you use the catalogue or this pipeline, please cite Valluvan et al. 2024 (https://doi.org/10.1007/s11207-023-02244-0).
 
-Copyright (C) 2023 Aravind Bharathi Valluvan, Ashwin Goyal and Devansh Jain.
+Copyright (C) 2024 Aravind Bharathi Valluvan, Ashwin Goyal and Devansh Jain.
 
-A daily updated version of the catalog will soon be available on the Indian Space Science Data Centre (ISSDC) Pradan website (https://pradan.issdc.gov.in/ch2/).
+A daily updated version of the catalogue will soon be available on the Indian Space Science Data Centre (ISSDC) Pradan website (https://pradan.issdc.gov.in/ch2/).
 
 ## Dependencies
 
